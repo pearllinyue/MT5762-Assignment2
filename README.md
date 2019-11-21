@@ -1,27 +1,3 @@
----
-title: "MT5762 Project 2 - linear models, selection and inference"
-author: "C. Donovan"
-output:
-  html_notebook:
-    number_sections: yes
-    toc: yes
-    toc_depth: 2
-    toc_float: yes
-  html_document:
-    df_print: paged
-    toc: yes
-    toc_depth: '2'
-    highlight: tango
-  word_document:
-    toc: yes
-    toc_depth: '2'
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
 # Introduction
 
 This is a data analysis project, which focusses mainly on fitting linear models. The data relate to birth-weights, which can be downloaded from [here](https://www.stat.berkeley.edu/~statlabs/data/babies23.data) and descriptor [here]( https://www.stat.berkeley.edu/~statlabs/data/babies.readme). 
